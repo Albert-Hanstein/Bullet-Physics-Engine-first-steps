@@ -437,7 +437,7 @@ int main( void ) {
     printf("Failed to start GLFW\n");
     exit( EXIT_FAILURE );
   }
-  window = glfwCreateWindow(500, 500, "Visible axies", NULL, NULL);// Initially 640, 480
+  window = glfwCreateWindow(500, 500, "Hello World", NULL, NULL);// Initially 640, 480
   if (!window) {
     glfwTerminate();
     printf("GLFW Failed to start\n");
